@@ -33,7 +33,7 @@ def calc_total_pages(books):
     tp = 0
     for i in range(len(books)):
         tp += books[i]["pages"]
-        return tp
+    return tp
 
 
 def calc_average_pages(books):
